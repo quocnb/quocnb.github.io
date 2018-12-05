@@ -1,0 +1,6 @@
+# theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes@4.14.1"
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "dark"
