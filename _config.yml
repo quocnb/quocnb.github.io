@@ -1,6 +1,34 @@
-# theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.14.1"
 plugins:
   - jekyll-include-cache
 
 minimal_mistakes_skin: "dark"
+
+title: "Quoc Nguyen"
+name: "Quoc Nguyen"
+
+author:
+  name             : "Quoc Nguyen"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "iOS Developer who love to learning new technicals and reading an old books"
+  location         : "Osaka, Japan"
+  email            : quocnb.vnu@gmail.com
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:quocnb.vnu@email.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://quocnb.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/quocnb.vnu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/quocnb"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
