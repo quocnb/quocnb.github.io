@@ -1,4 +1,3 @@
-# Tạo website cá nhân với Github Pages
 
 Đôi khi bạn muốn tạo 1 trang web cá nhân cho riêng mình, để show một vài thứ hay ho, chia sẻ 1 vài điều thầm kín ... nhưng lại ngại vì không biết lập trình web, không có tiền mua tên miền, thuê server ... Thế nên ước mơ đành giang dở ...
 
@@ -10,7 +9,7 @@ Bỗng 1 ngày đẹp trời, bạn phát hiện ra trang `Github` mà bạn v�
 
 
 
-![](./github_pages_logo.jpeg)
+![](/resources/2018-12-05-github-pages-logo.jpeg)
 
 >Websites for you and your projects.
 >
@@ -22,7 +21,7 @@ Thật bất ngờ là những việc bạn cần làm để tạo 1 trang Githu
 
 **Step 1: [Tạo repository](https://github.com/new)**
 
-![](./create_repo.png)
+![](/resources/2018-12-05-create-repo.png)
 
 Có 1 điểm khác biệt duy nhất và cũng là điểm quan trọng nhất, chính là tên repository của bạn. Để tạo 1 `Github Pages` tên repo của bạn bắt buộc phải được đặt theo cú pháp
 
@@ -48,7 +47,7 @@ Tất cả những gì bạn cần làm là tạo 1 file `index.html` hoặc `in
 
 Việc lựa chọn file html hay markdown (.md) tùy thuộc vào sở thích của bạn.
 
-![](./hello_world_simple.png)
+![](/resources/2018-12-05-page-hello-world.png)
 
 ## NOTE
 

@@ -9,10 +9,9 @@ name: "Quoc Nguyen"
 
 author:
   name             : "Quoc Nguyen"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : https://avatars0.githubusercontent.com/u/4478445?s=400&u=f4621902d54989285a7ff9cafeda5a59e5e029c7&v=4
   bio              : "iOS Developer who love to learning new technicals and reading an old books"
   location         : "Osaka, Japan"
-  email            : quocnb.vnu@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -32,3 +31,16 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
