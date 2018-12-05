@@ -51,7 +51,7 @@ Việc lựa chọn file html hay markdown (.md) tùy thuộc vào sở thích c
 
 ## NOTE
 
-1. Việc đặt tên theo 1 cú pháp định sẵn (ở step 1) cũng đồng nghĩa với việc bạn chỉ có thể tạo 1 page duy nhất với mỗi account github
+1. Việc đặt tên theo 1 cú pháp định sẵn (ở step 1) cũng đồng nghĩa với việc bạn chỉ có thể tạo 1 page duy nhất với mỗi account github. Tuy nhiên đó chỉ là page cá nhân, còn mỗi project, mỗi organization bạn có thể tạo ra các page tương ứng
 
 2. Source code của page sẽ được quản lý tại `https://github.com/username/username.github.io`, cũng có nghĩa là nếu bạn để repo của bạn là public thì tất cả mọi người sẽ đọc được source code của bạn ^^
 
