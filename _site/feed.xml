@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-06T18:47:25+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Quoc Nguyen</title><author><name>Quoc Nguyen</name></author><entry><title type="html">Tạo website cá nhân đơn giản với Github Pages</title><link href="http://localhost:4000/2018/12/05/T%E1%BA%A1o-website-c%C3%A1-nh%C3%A2n-v%E1%BB%9Bi-Github-Pages.html" rel="alternate" type="text/html" title="Tạo website cá nhân đơn giản với Github Pages" /><published>2018-12-05T00:00:00+09:00</published><updated>2018-12-05T00:00:00+09:00</updated><id>http://localhost:4000/2018/12/05/T%E1%BA%A1o-website-c%C3%A1-nh%C3%A2n-v%E1%BB%9Bi-Github-Pages</id><content type="html" xml:base="http://localhost:4000/2018/12/05/T%E1%BA%A1o-website-c%C3%A1-nh%C3%A2n-v%E1%BB%9Bi-Github-Pages.html">&lt;p&gt;Đôi khi bạn muốn tạo 1 trang web cá nhân cho riêng mình, để show một vài thứ hay ho, chia sẻ 1 vài điều thầm kín … nhưng lại ngại vì không biết lập trình web, không có tiền mua tên miền, thuê server … Thế nên ước mơ đành giang dở …&lt;/p&gt;
+
+&lt;p&gt;Bỗng 1 ngày đẹp trời, bạn phát hiện ra trang &lt;code class=&quot;highlighter-rouge&quot;&gt;Github&lt;/code&gt; mà bạn vẫn dùng mỗi ngày có thể giúp bạn biến ước mơ đơn giản đó thành hiện thực mà không tốn xu nào. Cùng khám phá thôi&lt;/p&gt;
+
+&lt;h1 id=&quot;1-github-pages&quot;&gt;1. &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Github Pages&lt;/code&gt; chính là công cụ giúp bạn thực hiện ước mơ. Nói đơn giản thì Github pages cho phép bạn tạo ra 1 website riêng với những thứ mà bạn vẫn sử dụng hàng ngày khi làm việc trên github.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/2018-12-05-github-pages-logo.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Websites for you and your projects.&lt;/p&gt;
+
+  &lt;p&gt;Hosted directly from your GitHub repository. Just edit, push, and your changes are live.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;2-hello-world-github-pages&quot;&gt;2. Hello world, Github Pages&lt;/h1&gt;
+
+&lt;p&gt;Thật bất ngờ là những việc bạn cần làm để tạo 1 trang Github Pages cũng chính là việc mà bạn vẫn làm mỗi khi bạn muốn tạo 1 project trên Github&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1: &lt;a href=&quot;https://github.com/new&quot;&gt;Tạo repository&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/2018-12-05-create-repo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Có 1 điểm khác biệt duy nhất và cũng là điểm quan trọng nhất, chính là tên repository của bạn. Để tạo 1 &lt;code class=&quot;highlighter-rouge&quot;&gt;Github Pages&lt;/code&gt; tên repo của bạn bắt buộc phải được đặt theo cú pháp&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;username.github.io
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;với &lt;code class=&quot;highlighter-rouge&quot;&gt;username&lt;/code&gt; chính là username github của bạn.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2: Clone repository&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Việc này chắc ai làm việc với &lt;code class=&quot;highlighter-rouge&quot;&gt;git&lt;/code&gt; cũng đã thông thạo&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/username/username.github.io
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;với &lt;code class=&quot;highlighter-rouge&quot;&gt;username&lt;/code&gt; chính là username github của bạn.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 3: Tạo màn hình chính cho website&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tất cả những gì bạn cần làm là tạo 1 file &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; hoặc &lt;code class=&quot;highlighter-rouge&quot;&gt;index.md&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Github Pages&lt;/code&gt; sẽ tự động load trang này lên làm trang chủ cho page của bạn.&lt;/p&gt;
+
+&lt;p&gt;Việc lựa chọn file html hay markdown (.md) tùy thuộc vào sở thích của bạn.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/2018-12-05-page-hello-world.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Việc đặt tên theo 1 cú pháp định sẵn (ở step 1) cũng đồng nghĩa với việc bạn chỉ có thể tạo 1 page duy nhất với mỗi account github. Tuy nhiên đó chỉ là page cá nhân, còn mỗi project, mỗi organization bạn có thể tạo ra các page tương ứng&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Source code của page sẽ được quản lý tại &lt;code class=&quot;highlighter-rouge&quot;&gt;https://github.com/username/username.github.io&lt;/code&gt;, cũng có nghĩa là nếu bạn để repo của bạn là public thì tất cả mọi người sẽ đọc được source code của bạn ^^&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Page của bạn sẽ được (tự động) tạo với tên miền https://username.github.io&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;3-jekyll&quot;&gt;3. Jekyll&lt;/h1&gt;
+
+&lt;p&gt;Bạn đã có thể tạo ra 1 website cá nhân một cách vô cùng đơn giản. Tuy vậy, chỉ có 1 vấn đề là chính cái page đó lại đơn giản đến mức nhàm chán.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/2018-12-06-jekyll.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nếu bạn để ý, thì ngay phía dưới phần giới thiệu của &lt;code class=&quot;highlighter-rouge&quot;&gt;Github Pages&lt;/code&gt; đã có giới thiệu cho chúng ta giải pháp cho vấn đề này. Đó chính là&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Jekyll is a blog-aware static site generator in Ruby https://jekyllrb.com&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/2018-12-06-jekyll-logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nếu bạn để ý thì trong phần Setting ở repo github pages của bạn, Github cũng đã support việc này một cách vô cùng tận tình. Những gì bạn cần làm chỉ là click chọn 1 trong các theme mặc định của jekyll mà mình  thích. Việc còn lại cứ để Github lo.&lt;/p&gt;
+&lt;p float=&quot;left&quot;&gt;
+  &lt;img src=&quot;/resources/2018-12-06-github-pages-setting-theme.png&quot; width=&quot;45%&quot; hspace=&quot;10&quot; /&gt;
+  &lt;img src=&quot;/resources/2018-12-06-github-pages-choose-theme.png&quot; width=&quot;45%&quot; hspace=&quot;10&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Nếu những theme mặc định vẫn chưa thể thỏa mãn nhu cầu của bạn, hãy thử custom một thứ gì đó hay hơn xem.&lt;/p&gt;
+
+&lt;h1 id=&quot;4-minimal-mistake&quot;&gt;4. Minimal Mistake&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes&quot;&gt;https://github.com/mmistakes/minimal-mistakes&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;📐 A flexible two-column Jekyll theme perfect for building personal sites, blogs, and portfolios.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Minimal Mistakes&lt;/code&gt; cho phép bạn custom giao diện page của bạn một cách dễ dàng nhất. Bạn sẽ không cần phải code, cũng không cần phải học HTML, CSS …, những gì bạn cần làm chỉ đơn giản là thêm vào vài dòng config&lt;/p&gt;
+
+&lt;h2 id=&quot;41-cài-đặt&quot;&gt;4.1. Cài đặt&lt;/h2&gt;
+
+&lt;p&gt;Có tới tận 3 cách cài đặt Mininal Mistakes&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Gem-based method&lt;/li&gt;
+  &lt;li&gt;Remote theme method&lt;/li&gt;
+  &lt;li&gt;forking/directly copying theme file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Riêng cá nhân mình lựa chọn cách số 2 khi push lên github, và cách số 1 để test trên máy local. Lý do đơn giản là vì khi sử dụng cách số 1, github không nhận custom theme =))&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Add &lt;code class=&quot;highlighter-rouge&quot;&gt;github-pages&lt;/code&gt; vào &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source &quot;https://rubygems.org&quot;
+
+gem &quot;github-pages&quot;, group: :jekyll_plugins
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Thêm &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-include-cache&lt;/code&gt; vào &lt;code class=&quot;highlighter-rouge&quot;&gt;plugins&lt;/code&gt; trong file &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;plugins:
+  - jekyll-include-cache
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Fetch, update bundled gems với &lt;a href=&quot;https://bundler.io/&quot;&gt;Bundler&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Add remote theme vào &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;remote_theme: &quot;mmistakes/minimal-mistakes@4.14.1&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Chú ý xóa (hoặc comment) các &lt;code class=&quot;highlighter-rouge&quot;&gt;theme:&lt;/code&gt; hoặc &lt;code class=&quot;highlighter-rouge&quot;&gt;remote_theme:&lt;/code&gt; khác.&lt;/p&gt;
+
+&lt;p&gt;Đến đây, bạn đã có thể &lt;code class=&quot;highlighter-rouge&quot;&gt;commit&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;push&lt;/code&gt; code lên github và tận hưởng thành quả. Tuy vậy, để có 1 page thực sự vừa ý, bạn cần nhiều hơn thế.&lt;/p&gt;
+
+&lt;h2 id=&quot;42-config-theme&quot;&gt;4.2. Config theme&lt;/h2&gt;
+
+&lt;p&gt;Có rất nhiều thứ bạn có thể thay đổi để custom page của bạn, mình chỉ nêu ra 1 số config cơ bản, phần còn lại hãy tự mình khám phá và sáng tạo nhé. Tất cả tài liệu bạn cần đều có ở đây.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/&quot;&gt;https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Page này cũng được tạo trên Github page và được custom bằng chính Mininal Mistake này luôn nhé =))&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;TIP: Một cách config đơn giản nhất chính là copy file &lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; từ chính repo của &lt;code class=&quot;highlighter-rouge&quot;&gt;Minimal Mistake&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;5-kết&quot;&gt;5. Kết&lt;/h1&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Github Pages&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll+Minimal Mistake&lt;/code&gt; đã cung cấp cho bạn tất cả những gì thiết yếu nhất để tạo nên 1 page cá nhân của riêng bạn. Hãy sáng tạo nó theo cách riêng của  bạn nhé.&lt;/p&gt;
+
+&lt;p&gt;P/s:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Demo : Chính trang này =))&lt;/p&gt;
+
+  &lt;p&gt;Source code: Cũng chính repo của trang này luôn =))&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Quoc Nguyen</name></author><summary type="html">Đôi khi bạn muốn tạo 1 trang web cá nhân cho riêng mình, để show một vài thứ hay ho, chia sẻ 1 vài điều thầm kín … nhưng lại ngại vì không biết lập trình web, không có tiền mua tên miền, thuê server … Thế nên ước mơ đành giang dở …</summary></entry></feed>
