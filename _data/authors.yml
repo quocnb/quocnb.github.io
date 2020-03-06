@@ -1,0 +1,24 @@
+QuocNB:
+  name             : "Quoc Nguyen"
+  avatar           : https://avatars0.githubusercontent.com/u/4478445?s=400&u=f4621902d54989285a7ff9cafeda5a59e5e029c7&v=4
+  bio              : "iOS Developer who love to learning new technicals and reading an old books"
+  location         : "Osaka, Japan"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:quocnb.vnu@email.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://quocnb.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/quocnb.vnu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/quocnb"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"

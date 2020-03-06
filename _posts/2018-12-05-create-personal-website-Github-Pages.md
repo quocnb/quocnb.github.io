@@ -1,16 +1,14 @@
 ---
 title:  "Tạo website cá nhân đơn giản với Github Pages"
+categories: [blog, travel]
+tags: [github_pages_, summer]
 ---
 
-Đôi khi bạn muốn tạo 1 trang web cá nhân cho riêng mình, để show một vài thứ hay ho, chia sẻ 1 vài điều thầm kín ... nhưng lại ngại vì không biết lập trình web, không có tiền mua tên miền, thuê server ... Thế nên ước mơ đành giang dở ...
-
-Bỗng 1 ngày đẹp trời, bạn phát hiện ra trang `Github` mà bạn vẫn dùng mỗi ngày có thể giúp bạn biến ước mơ đơn giản đó thành hiện thực mà không tốn xu nào. Cùng khám phá thôi
+Đôi khi bạn muốn tạo 1 trang web cá nhân cho riêng mình nhưng lại ngại vì không biết lập trình web, không có tiền mua tên miền, thuê server ... thì Github Pages chính là 1 cách đơn giản và mạnh mẽ để giải quyết vấn đề đó giúp bạn
 
 # 1. [Github Pages](https://pages.github.com/)
 
-`Github Pages` chính là công cụ giúp bạn thực hiện ước mơ. Nói đơn giản thì Github pages cho phép bạn tạo ra 1 website riêng với những thứ mà bạn vẫn sử dụng hàng ngày khi làm việc trên github.
-
-
+`Github Pages` cho phép bạn tạo ra 1 website riêng với những thứ mà bạn vẫn sử dụng hàng ngày khi làm việc trên github.
 
 ![](/resources/2018-12-05-github-pages-logo.jpeg)
 
